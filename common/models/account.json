@@ -58,6 +58,7 @@
     },
     "password": {
       "type": "string",
+      "dataType": "text",
       "required": true,
       "length": 65534,
       "display": {
@@ -68,6 +69,7 @@
     },
     "credentials": {
       "type": "string",
+      "dataType": "text",
       "deprecated": true,
       "length": 65534
     },

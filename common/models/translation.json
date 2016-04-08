@@ -8,6 +8,7 @@
   "properties": {
     "translatedPhrase": {
       "type": "string",
+      "dataType": "text",
       "length": 65534
     },
     "pluralForm": {
@@ -15,6 +16,7 @@
     },
     "description": {
       "type": "string",
+      "dataType": "text",
       "length": 65534
     },
     "translationsKeyId": {

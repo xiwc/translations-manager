@@ -8,6 +8,7 @@
   "properties": {
     "keyString": {
       "type": "string",
+      "dataType": "text",
       "required": true,
       "length": 65534
     },

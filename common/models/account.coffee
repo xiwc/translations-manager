@@ -19,7 +19,7 @@ module.exports = (Account) ->
       where:
         name: "user"
     , (err, responseRole) ->
-        if !err
+        if !err && responseRole
           RoleMapping.find
             where:
               roleId:       responseRole.id
