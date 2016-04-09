@@ -17,6 +17,7 @@ tmhDynamicLocale) ->
   _interfaceLanguages = [
     { nativeName: "English (U.S.)", ietfCode: "en-us" }
     { nativeName: "Polski (Polska)", ietfCode: "pl-pl" }
+    { nativeName: "Chinese (China)", ietfCode: "zh-cn" }
   ]
 
 

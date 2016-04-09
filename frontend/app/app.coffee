@@ -99,12 +99,16 @@ $translateProvider, tmhDynamicLocaleProvider, toastrConfig) ->
   $translateProvider.registerAvailableLanguageKeys([
     'en-us'
     'pl-pl'
+    'zh-cn'
   ], {
     'en_US':  'en-us'
     'en-en':  'en-us'
     'en':     'en-us' # NOTE: change/remove if international version will be added
     'pl_PL':  'pl-pl'
     'pl':     'pl-pl'
+    'zh_cn':  'zh-cn'
+    'zh_CN':  'zh-cn'
+    'zh':     'zh-cn'
   }).determinePreferredLanguage()
 
   $translateProvider.useSanitizeValueStrategy(null)
